@@ -653,6 +653,8 @@
 		D3E540DA1803E981003B5C30 /* iHTranslatorService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iHTranslatorService.h; sourceTree = "<group>"; };
 		D3E540DB1803E981003B5C30 /* iHTranslatorService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iHTranslatorService.m; sourceTree = "<group>"; };
 		D3F2C2EA14F18ACA0063C604 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F02A046918CBD769008CDD34 /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.md; sourceTree = "<group>"; };
+		F02A046B18CBD7D6008CDD34 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -977,6 +979,8 @@
 		D3764CCE135A3BB40041A922 = {
 			isa = PBXGroup;
 			children = (
+				F02A046B18CBD7D6008CDD34 /* README.md */,
+				F02A046918CBD769008CDD34 /* LICENSE.md */,
 				D317FB911829B12900809C4B /* Media.xcassets */,
 				D351240D17F88AEA00F90652 /* Views */,
 				D39281021805FBE6009F739E /* Controllers */,
