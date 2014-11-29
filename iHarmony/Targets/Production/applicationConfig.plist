@@ -3,6 +3,6 @@
 <plist version="1.0">
 <dict>
 	<key>urlForJsonDb</key>
-	<string>http://www.albertodebortoli.it/iHarmony/Production/db.json</string>
+	<string>https://s3.amazonaws.com/albertodebortoli.github.com/iHarmony/Production/db.json</string>
 </dict>
 </plist>

@@ -68,7 +68,6 @@
 		D315518817EA5B1800D96333 /* OptimaLTStd-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = D34FAE81148A5EB90001905A /* OptimaLTStd-Medium.otf */; };
 		D315518917EA5B1800D96333 /* OptimaLTStd.otf in Resources */ = {isa = PBXBuildFile; fileRef = D34FAE82148A5EB90001905A /* OptimaLTStd.otf */; };
 		D315519917EA5B1800D96333 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D3487356149167B4009F1CEB /* Localizable.strings */; };
-		D31551A117EA5B1800D96333 /* db.json in Resources */ = {isa = PBXBuildFile; fileRef = D35AF0FD14ADE03700EAC35D /* db.json */; };
 		D315520D17EA644200D96333 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D315520C17EA644200D96333 /* libz.dylib */; };
 		D315520E17EA644800D96333 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D315520C17EA644200D96333 /* libz.dylib */; };
 		D315525917EA694200D96333 /* DCControl.m in Sources */ = {isa = PBXBuildFile; fileRef = D315521A17EA694200D96333 /* DCControl.m */; };
@@ -87,7 +86,6 @@
 		D31552B017EA694200D96333 /* MGSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D315525817EA694200D96333 /* MGSplitViewController.m */; };
 		D317FB921829B12900809C4B /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D317FB911829B12900809C4B /* Media.xcassets */; };
 		D317FB931829B12900809C4B /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D317FB911829B12900809C4B /* Media.xcassets */; };
-		D317FB941829B12900809C4B /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D317FB911829B12900809C4B /* Media.xcassets */; };
 		D3355A171460664F00EE71CE /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3355A161460664E00EE71CE /* MessageUI.framework */; };
 		D3487353149167B4009F1CEB /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D3487356149167B4009F1CEB /* Localizable.strings */; };
 		D34D85D4145F483100D260C6 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D34D85D3145F483100D260C6 /* Security.framework */; };
@@ -97,275 +95,141 @@
 		D34FAE95148A5EB90001905A /* OptimaLTStd.otf in Resources */ = {isa = PBXBuildFile; fileRef = D34FAE82148A5EB90001905A /* OptimaLTStd.otf */; };
 		D351241617F88AEA00F90652 /* iHDetailTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = D351240F17F88AEA00F90652 /* iHDetailTitleView.m */; };
 		D351241717F88AEA00F90652 /* iHDetailTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = D351240F17F88AEA00F90652 /* iHDetailTitleView.m */; };
-		D351241817F88AEA00F90652 /* iHDetailTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = D351240F17F88AEA00F90652 /* iHDetailTitleView.m */; };
 		D351241917F88AEA00F90652 /* iHSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = D351241117F88AEA00F90652 /* iHSectionHeaderView.m */; };
 		D351241A17F88AEA00F90652 /* iHSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = D351241117F88AEA00F90652 /* iHSectionHeaderView.m */; };
-		D351241B17F88AEA00F90652 /* iHSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = D351241117F88AEA00F90652 /* iHSectionHeaderView.m */; };
 		D351241C17F88AEA00F90652 /* iHSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = D351241317F88AEA00F90652 /* iHSlider.m */; };
 		D351241D17F88AEA00F90652 /* iHSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = D351241317F88AEA00F90652 /* iHSlider.m */; };
-		D351241E17F88AEA00F90652 /* iHSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = D351241317F88AEA00F90652 /* iHSlider.m */; };
 		D351241F17F88AEA00F90652 /* iHTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D351241517F88AEA00F90652 /* iHTableViewCell.m */; };
 		D351242017F88AEA00F90652 /* iHTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D351241517F88AEA00F90652 /* iHTableViewCell.m */; };
-		D351242117F88AEA00F90652 /* iHTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D351241517F88AEA00F90652 /* iHTableViewCell.m */; };
 		D351242517F89D8600F90652 /* iHChordsiPhoneDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D351242217F89D8600F90652 /* iHChordsiPhoneDetailViewController.xib */; };
 		D351242617F89D8600F90652 /* iHChordsiPhoneDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D351242217F89D8600F90652 /* iHChordsiPhoneDetailViewController.xib */; };
-		D351242717F89D8600F90652 /* iHChordsiPhoneDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D351242217F89D8600F90652 /* iHChordsiPhoneDetailViewController.xib */; };
 		D351242817F89D8600F90652 /* iHHarmsiPhoneDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D351242317F89D8600F90652 /* iHHarmsiPhoneDetailViewController.xib */; };
 		D351242917F89D8600F90652 /* iHHarmsiPhoneDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D351242317F89D8600F90652 /* iHHarmsiPhoneDetailViewController.xib */; };
-		D351242A17F89D8600F90652 /* iHHarmsiPhoneDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D351242317F89D8600F90652 /* iHHarmsiPhoneDetailViewController.xib */; };
 		D351242B17F89D8600F90652 /* iHScalesiPhoneDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D351242417F89D8600F90652 /* iHScalesiPhoneDetailViewController.xib */; };
 		D351242C17F89D8600F90652 /* iHScalesiPhoneDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D351242417F89D8600F90652 /* iHScalesiPhoneDetailViewController.xib */; };
-		D351242D17F89D8600F90652 /* iHScalesiPhoneDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D351242417F89D8600F90652 /* iHScalesiPhoneDetailViewController.xib */; };
 		D351C10717F37DB10072D5DD /* iHarmonyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D351C10617F37DB10072D5DD /* iHarmonyAppDelegate.m */; };
 		D351C10817F37DB10072D5DD /* iHarmonyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D351C10617F37DB10072D5DD /* iHarmonyAppDelegate.m */; };
-		D351C10917F37DB10072D5DD /* iHarmonyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D351C10617F37DB10072D5DD /* iHarmonyAppDelegate.m */; };
-		D35F66E917EBA748004C346E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3764CEA135A3BB40041A922 /* main.m */; };
-		D35F66EB17EBA748004C346E /* MGSplitDividerView.m in Sources */ = {isa = PBXBuildFile; fileRef = D315525617EA694200D96333 /* MGSplitDividerView.m */; };
-		D35F66EE17EBA748004C346E /* ILBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D315522117EA694200D96333 /* ILBarButtonItem.m */; };
-		D35F66F217EBA748004C346E /* MGSplitCornersView.m in Sources */ = {isa = PBXBuildFile; fileRef = D315525417EA694200D96333 /* MGSplitCornersView.m */; };
-		D35F66F617EBA748004C346E /* MGSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D315525817EA694200D96333 /* MGSplitViewController.m */; };
-		D35F66F817EBA748004C346E /* DCKnob.m in Sources */ = {isa = PBXBuildFile; fileRef = D315521C17EA694200D96333 /* DCKnob.m */; };
-		D35F66FC17EBA748004C346E /* DCControl.m in Sources */ = {isa = PBXBuildFile; fileRef = D315521A17EA694200D96333 /* DCControl.m */; };
-		D35F66FE17EBA748004C346E /* DCSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = D315521E17EA694200D96333 /* DCSlider.m */; };
-		D35F670E17EBA748004C346E /* CDAudioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D3BECC1F145DCDFF00690DED /* CDAudioManager.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		D35F670F17EBA748004C346E /* CDOpenALSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = D3BECC22145DCDFF00690DED /* CDOpenALSupport.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		D35F671117EBA748004C346E /* CocosDenshion.m in Sources */ = {isa = PBXBuildFile; fileRef = D3BECC24145DCDFF00690DED /* CocosDenshion.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		D35F671217EBA748004C346E /* SimpleAudioEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = D3BECC26145DCDFF00690DED /* SimpleAudioEngine.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		D35F672617EBA748004C346E /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D315520C17EA644200D96333 /* libz.dylib */; };
-		D35F672717EBA748004C346E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3F2C2EA14F18ACA0063C604 /* SystemConfiguration.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		D35F672817EBA748004C346E /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3355A161460664E00EE71CE /* MessageUI.framework */; };
-		D35F672917EBA748004C346E /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3CBFBC41460437B00941CE2 /* CoreFoundation.framework */; };
-		D35F672A17EBA748004C346E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D34D85D3145F483100D260C6 /* Security.framework */; };
-		D35F672B17EBA748004C346E /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3BECC36145DD91D00690DED /* OpenAL.framework */; };
-		D35F672C17EBA748004C346E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3BECC33145DD8E800690DED /* AudioToolbox.framework */; };
-		D35F672D17EBA748004C346E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3BECC30145DD7F100690DED /* AVFoundation.framework */; };
-		D35F672E17EBA748004C346E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3A613DA145367D400C5E01F /* QuartzCore.framework */; };
-		D35F672F17EBA748004C346E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3764CDD135A3BB40041A922 /* UIKit.framework */; };
-		D35F673117EBA748004C346E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3764CDF135A3BB40041A922 /* Foundation.framework */; };
-		D35F673217EBA748004C346E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3764CE1135A3BB40041A922 /* CoreGraphics.framework */; };
-		D35F673317EBA748004C346E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F35B03877E047BF9EF26689 /* libPods.a */; };
-		D35F673517EBA748004C346E /* MainWindow~iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = D37AF7591438780400416FE7 /* MainWindow~iPad.xib */; };
-		D35F673617EBA748004C346E /* MainWindow~iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = D37AF75A1438780400416FE7 /* MainWindow~iPhone.xib */; };
-		D35F673F17EBA748004C346E /* A2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3BECC3A145DDC8D00690DED /* A2.mp3 */; };
-		D35F674017EBA748004C346E /* A3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3BECC3B145DDC8D00690DED /* A3.mp3 */; };
-		D35F674317EBA748004C346E /* A4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3BECC3C145DDC8D00690DED /* A4.mp3 */; };
-		D35F674417EBA748004C346E /* Ad2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3BECC3D145DDC8D00690DED /* Ad2.mp3 */; };
-		D35F674717EBA748004C346E /* Ad3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3BECC3E145DDC8D00690DED /* Ad3.mp3 */; };
-		D35F674917EBA748004C346E /* Ad4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3BECC3F145DDC8D00690DED /* Ad4.mp3 */; };
-		D35F674A17EBA748004C346E /* B2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3BECC40145DDC8D00690DED /* B2.mp3 */; };
-		D35F674B17EBA748004C346E /* B3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3BECC41145DDC8D00690DED /* B3.mp3 */; };
-		D35F674D17EBA748004C346E /* B4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3BECC42145DDC8D00690DED /* B4.mp3 */; };
-		D35F674E17EBA748004C346E /* C2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3BECC43145DDC8E00690DED /* C2.mp3 */; };
-		D35F674F17EBA748004C346E /* C3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3BECC44145DDC8E00690DED /* C3.mp3 */; };
-		D35F675117EBA748004C346E /* C4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3BECC45145DDC8E00690DED /* C4.mp3 */; };
-		D35F675217EBA748004C346E /* Cd2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3BECC46145DDC8E00690DED /* Cd2.mp3 */; };
-		D35F675317EBA748004C346E /* Cd3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3BECC47145DDC8E00690DED /* Cd3.mp3 */; };
-		D35F675517EBA748004C346E /* Cd4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3BECC48145DDC8E00690DED /* Cd4.mp3 */; };
-		D35F675617EBA748004C346E /* D2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3BECC49145DDC8E00690DED /* D2.mp3 */; };
-		D35F675717EBA748004C346E /* D3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3BECC4A145DDC8E00690DED /* D3.mp3 */; };
-		D35F675817EBA748004C346E /* D4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3BECC4B145DDC8E00690DED /* D4.mp3 */; };
-		D35F675917EBA748004C346E /* Dd2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3BECC4C145DDC8E00690DED /* Dd2.mp3 */; };
-		D35F675A17EBA748004C346E /* Dd3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3BECC4D145DDC8E00690DED /* Dd3.mp3 */; };
-		D35F675B17EBA748004C346E /* Dd4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3BECC4E145DDC8E00690DED /* Dd4.mp3 */; };
-		D35F675C17EBA748004C346E /* E2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3BECC4F145DDC8E00690DED /* E2.mp3 */; };
-		D35F675E17EBA748004C346E /* E3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3BECC50145DDC8E00690DED /* E3.mp3 */; };
-		D35F675F17EBA748004C346E /* E4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3BECC51145DDC8E00690DED /* E4.mp3 */; };
-		D35F676017EBA748004C346E /* F2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3BECC52145DDC8E00690DED /* F2.mp3 */; };
-		D35F676117EBA748004C346E /* F3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3BECC53145DDC8E00690DED /* F3.mp3 */; };
-		D35F676217EBA748004C346E /* F4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3BECC54145DDC8E00690DED /* F4.mp3 */; };
-		D35F676317EBA748004C346E /* Fd2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3BECC55145DDC8E00690DED /* Fd2.mp3 */; };
-		D35F676417EBA748004C346E /* Fd3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3BECC56145DDC8E00690DED /* Fd3.mp3 */; };
-		D35F676517EBA748004C346E /* Fd4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3BECC57145DDC8E00690DED /* Fd4.mp3 */; };
-		D35F676617EBA748004C346E /* G2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3BECC58145DDC8E00690DED /* G2.mp3 */; };
-		D35F676717EBA748004C346E /* G3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3BECC59145DDC8E00690DED /* G3.mp3 */; };
-		D35F676817EBA748004C346E /* G4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3BECC5A145DDC8E00690DED /* G4.mp3 */; };
-		D35F676917EBA748004C346E /* Gd2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3BECC5B145DDC8E00690DED /* Gd2.mp3 */; };
-		D35F676A17EBA748004C346E /* Gd3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3BECC5C145DDC8E00690DED /* Gd3.mp3 */; };
-		D35F676B17EBA748004C346E /* Gd4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3BECC5D145DDC8E00690DED /* Gd4.mp3 */; };
-		D35F676C17EBA748004C346E /* OptimaLTStd-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = D34FAE7F148A5EB90001905A /* OptimaLTStd-Bold.otf */; };
-		D35F676D17EBA748004C346E /* OptimaLTStd-DemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = D34FAE80148A5EB90001905A /* OptimaLTStd-DemiBold.otf */; };
-		D35F676E17EBA748004C346E /* OptimaLTStd-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = D34FAE81148A5EB90001905A /* OptimaLTStd-Medium.otf */; };
-		D35F676F17EBA748004C346E /* OptimaLTStd.otf in Resources */ = {isa = PBXBuildFile; fileRef = D34FAE82148A5EB90001905A /* OptimaLTStd.otf */; };
-		D35F678217EBA748004C346E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D3487356149167B4009F1CEB /* Localizable.strings */; };
-		D35F678C17EBA748004C346E /* db.json in Resources */ = {isa = PBXBuildFile; fileRef = D35AF0FD14ADE03700EAC35D /* db.json */; };
-		D35F67D617EBA80F004C346E /* applicationConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = D35F67D417EBA80F004C346E /* applicationConfig.plist */; };
 		D35F67DB17EBA815004C346E /* applicationConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = D35F67D917EBA815004C346E /* applicationConfig.plist */; };
 		D35F67E017EBA81A004C346E /* applicationConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = D35F67DE17EBA81A004C346E /* applicationConfig.plist */; };
 		D368BA4318020098003EA28D /* iHNoteDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = D368BA4218020098003EA28D /* iHNoteDTO.m */; };
 		D368BA4418020098003EA28D /* iHNoteDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = D368BA4218020098003EA28D /* iHNoteDTO.m */; };
-		D368BA4518020098003EA28D /* iHNoteDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = D368BA4218020098003EA28D /* iHNoteDTO.m */; };
 		D368BA48180200E9003EA28D /* iHScaleDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = D368BA47180200E9003EA28D /* iHScaleDTO.m */; };
 		D368BA49180200E9003EA28D /* iHScaleDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = D368BA47180200E9003EA28D /* iHScaleDTO.m */; };
-		D368BA4A180200E9003EA28D /* iHScaleDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = D368BA47180200E9003EA28D /* iHScaleDTO.m */; };
 		D368BA4D180201C3003EA28D /* iHChordDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = D368BA4C180201C3003EA28D /* iHChordDTO.m */; };
 		D368BA4E180201C3003EA28D /* iHChordDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = D368BA4C180201C3003EA28D /* iHChordDTO.m */; };
-		D368BA4F180201C3003EA28D /* iHChordDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = D368BA4C180201C3003EA28D /* iHChordDTO.m */; };
 		D368BA5218022015003EA28D /* iHHarmDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = D368BA5118022015003EA28D /* iHHarmDTO.m */; };
 		D368BA5318022015003EA28D /* iHHarmDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = D368BA5118022015003EA28D /* iHHarmDTO.m */; };
-		D368BA5418022015003EA28D /* iHHarmDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = D368BA5118022015003EA28D /* iHHarmDTO.m */; };
 		D3764CDE135A3BB40041A922 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3764CDD135A3BB40041A922 /* UIKit.framework */; };
 		D3764CE0135A3BB40041A922 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3764CDF135A3BB40041A922 /* Foundation.framework */; };
 		D3764CE2135A3BB40041A922 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3764CE1135A3BB40041A922 /* CoreGraphics.framework */; };
 		D3764CEB135A3BB40041A922 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3764CEA135A3BB40041A922 /* main.m */; };
 		D3786B7417EEF33D007D66BD /* MBProgressHUD+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = D3786B6117EEF33D007D66BD /* MBProgressHUD+Additions.m */; };
 		D3786B7517EEF33D007D66BD /* MBProgressHUD+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = D3786B6117EEF33D007D66BD /* MBProgressHUD+Additions.m */; };
-		D3786B7617EEF33D007D66BD /* MBProgressHUD+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = D3786B6117EEF33D007D66BD /* MBProgressHUD+Additions.m */; };
 		D3786B7717EEF33D007D66BD /* NSArray+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = D3786B6317EEF33D007D66BD /* NSArray+Additions.m */; };
 		D3786B7817EEF33D007D66BD /* NSArray+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = D3786B6317EEF33D007D66BD /* NSArray+Additions.m */; };
-		D3786B7917EEF33D007D66BD /* NSArray+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = D3786B6317EEF33D007D66BD /* NSArray+Additions.m */; };
 		D3786B7A17EEF33D007D66BD /* NSArray+Functional.m in Sources */ = {isa = PBXBuildFile; fileRef = D3786B6517EEF33D007D66BD /* NSArray+Functional.m */; };
 		D3786B7B17EEF33D007D66BD /* NSArray+Functional.m in Sources */ = {isa = PBXBuildFile; fileRef = D3786B6517EEF33D007D66BD /* NSArray+Functional.m */; };
-		D3786B7C17EEF33D007D66BD /* NSArray+Functional.m in Sources */ = {isa = PBXBuildFile; fileRef = D3786B6517EEF33D007D66BD /* NSArray+Functional.m */; };
 		D3786B7D17EEF33D007D66BD /* NSFileManager+ADBExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D3786B6717EEF33D007D66BD /* NSFileManager+ADBExtensions.m */; };
 		D3786B7E17EEF33D007D66BD /* NSFileManager+ADBExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D3786B6717EEF33D007D66BD /* NSFileManager+ADBExtensions.m */; };
-		D3786B7F17EEF33D007D66BD /* NSFileManager+ADBExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D3786B6717EEF33D007D66BD /* NSFileManager+ADBExtensions.m */; };
 		D3786B8017EEF33D007D66BD /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = D3786B6917EEF33D007D66BD /* NSString+Additions.m */; };
 		D3786B8117EEF33D007D66BD /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = D3786B6917EEF33D007D66BD /* NSString+Additions.m */; };
-		D3786B8217EEF33D007D66BD /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = D3786B6917EEF33D007D66BD /* NSString+Additions.m */; };
 		D3786B8317EEF33D007D66BD /* NSUserDefaults+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = D3786B6B17EEF33D007D66BD /* NSUserDefaults+Additions.m */; };
 		D3786B8417EEF33D007D66BD /* NSUserDefaults+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = D3786B6B17EEF33D007D66BD /* NSUserDefaults+Additions.m */; };
-		D3786B8517EEF33D007D66BD /* NSUserDefaults+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = D3786B6B17EEF33D007D66BD /* NSUserDefaults+Additions.m */; };
 		D3786B8917EEF33D007D66BD /* UIColor+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = D3786B6F17EEF33D007D66BD /* UIColor+Additions.m */; };
 		D3786B8A17EEF33D007D66BD /* UIColor+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = D3786B6F17EEF33D007D66BD /* UIColor+Additions.m */; };
-		D3786B8B17EEF33D007D66BD /* UIColor+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = D3786B6F17EEF33D007D66BD /* UIColor+Additions.m */; };
 		D3786B8C17EEF33D007D66BD /* UIView+ADBSubviews.m in Sources */ = {isa = PBXBuildFile; fileRef = D3786B7117EEF33D007D66BD /* UIView+ADBSubviews.m */; };
 		D3786B8D17EEF33D007D66BD /* UIView+ADBSubviews.m in Sources */ = {isa = PBXBuildFile; fileRef = D3786B7117EEF33D007D66BD /* UIView+ADBSubviews.m */; };
-		D3786B8E17EEF33D007D66BD /* UIView+ADBSubviews.m in Sources */ = {isa = PBXBuildFile; fileRef = D3786B7117EEF33D007D66BD /* UIView+ADBSubviews.m */; };
 		D3786B8F17EEF33D007D66BD /* UIWindow+ADBExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D3786B7317EEF33D007D66BD /* UIWindow+ADBExtensions.m */; };
 		D3786B9017EEF33D007D66BD /* UIWindow+ADBExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D3786B7317EEF33D007D66BD /* UIWindow+ADBExtensions.m */; };
-		D3786B9117EEF33D007D66BD /* UIWindow+ADBExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D3786B7317EEF33D007D66BD /* UIWindow+ADBExtensions.m */; };
 		D3786B9417EEF373007D66BD /* NSJSONSerialization+ADBExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D3786B9317EEF373007D66BD /* NSJSONSerialization+ADBExtensions.m */; };
 		D3786B9517EEF374007D66BD /* NSJSONSerialization+ADBExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D3786B9317EEF373007D66BD /* NSJSONSerialization+ADBExtensions.m */; };
-		D3786B9617EEF374007D66BD /* NSJSONSerialization+ADBExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D3786B9317EEF373007D66BD /* NSJSONSerialization+ADBExtensions.m */; };
 		D3786BA617EEF768007D66BD /* IHApplicationConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = D3786BA317EEF768007D66BD /* IHApplicationConfig.m */; };
 		D3786BA717EEF768007D66BD /* IHApplicationConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = D3786BA317EEF768007D66BD /* IHApplicationConfig.m */; };
-		D3786BA817EEF768007D66BD /* IHApplicationConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = D3786BA317EEF768007D66BD /* IHApplicationConfig.m */; };
 		D3786BA917EEF768007D66BD /* iHSoundEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = D3786BA517EEF768007D66BD /* iHSoundEngine.m */; };
 		D3786BAA17EEF768007D66BD /* iHSoundEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = D3786BA517EEF768007D66BD /* iHSoundEngine.m */; };
-		D3786BAB17EEF768007D66BD /* iHSoundEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = D3786BA517EEF768007D66BD /* iHSoundEngine.m */; };
 		D3786BB717EEF778007D66BD /* iHarmonyDB.m in Sources */ = {isa = PBXBuildFile; fileRef = D3786BAE17EEF778007D66BD /* iHarmonyDB.m */; };
 		D3786BB817EEF778007D66BD /* iHarmonyDB.m in Sources */ = {isa = PBXBuildFile; fileRef = D3786BAE17EEF778007D66BD /* iHarmonyDB.m */; };
-		D3786BB917EEF778007D66BD /* iHarmonyDB.m in Sources */ = {isa = PBXBuildFile; fileRef = D3786BAE17EEF778007D66BD /* iHarmonyDB.m */; };
 		D3786BBA17EEF778007D66BD /* iHChordGroupRepresentationDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = D3786BB017EEF778007D66BD /* iHChordGroupRepresentationDTO.m */; };
 		D3786BBB17EEF778007D66BD /* iHChordGroupRepresentationDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = D3786BB017EEF778007D66BD /* iHChordGroupRepresentationDTO.m */; };
-		D3786BBC17EEF778007D66BD /* iHChordGroupRepresentationDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = D3786BB017EEF778007D66BD /* iHChordGroupRepresentationDTO.m */; };
 		D3786BBD17EEF778007D66BD /* iHHarmGroupRepresentationDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = D3786BB217EEF778007D66BD /* iHHarmGroupRepresentationDTO.m */; };
 		D3786BBE17EEF778007D66BD /* iHHarmGroupRepresentationDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = D3786BB217EEF778007D66BD /* iHHarmGroupRepresentationDTO.m */; };
-		D3786BBF17EEF778007D66BD /* iHHarmGroupRepresentationDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = D3786BB217EEF778007D66BD /* iHHarmGroupRepresentationDTO.m */; };
 		D3786BC017EEF778007D66BD /* iHNoteGroupRepresentationDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = D3786BB417EEF778007D66BD /* iHNoteGroupRepresentationDTO.m */; };
 		D3786BC117EEF778007D66BD /* iHNoteGroupRepresentationDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = D3786BB417EEF778007D66BD /* iHNoteGroupRepresentationDTO.m */; };
-		D3786BC217EEF778007D66BD /* iHNoteGroupRepresentationDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = D3786BB417EEF778007D66BD /* iHNoteGroupRepresentationDTO.m */; };
 		D3786BC317EEF778007D66BD /* iHScaleGroupRepresentationDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = D3786BB617EEF778007D66BD /* iHScaleGroupRepresentationDTO.m */; };
 		D3786BC417EEF778007D66BD /* iHScaleGroupRepresentationDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = D3786BB617EEF778007D66BD /* iHScaleGroupRepresentationDTO.m */; };
-		D3786BC517EEF778007D66BD /* iHScaleGroupRepresentationDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = D3786BB617EEF778007D66BD /* iHScaleGroupRepresentationDTO.m */; };
 		D37AF75B1438780400416FE7 /* MainWindow~iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = D37AF7591438780400416FE7 /* MainWindow~iPad.xib */; };
 		D37AF75C1438780400416FE7 /* MainWindow~iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = D37AF75A1438780400416FE7 /* MainWindow~iPhone.xib */; };
 		D37E703F184D5BAE004AC99F /* iHDatabaseDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = D37E703E184D5BAE004AC99F /* iHDatabaseDownloader.m */; };
 		D37E7040184D5BAE004AC99F /* iHDatabaseDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = D37E703E184D5BAE004AC99F /* iHDatabaseDownloader.m */; };
-		D37E7041184D5BAE004AC99F /* iHDatabaseDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = D37E703E184D5BAE004AC99F /* iHDatabaseDownloader.m */; };
 		D39280F51805C702009F739E /* iHScalesDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = D39280F41805C702009F739E /* iHScalesDetailController.m */; };
 		D39280F61805C702009F739E /* iHScalesDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = D39280F41805C702009F739E /* iHScalesDetailController.m */; };
-		D39280F71805C702009F739E /* iHScalesDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = D39280F41805C702009F739E /* iHScalesDetailController.m */; };
 		D39280FA1805E7BE009F739E /* iHChordsDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = D39280F91805E7BE009F739E /* iHChordsDetailController.m */; };
 		D39280FB1805E7BE009F739E /* iHChordsDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = D39280F91805E7BE009F739E /* iHChordsDetailController.m */; };
-		D39280FC1805E7BE009F739E /* iHChordsDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = D39280F91805E7BE009F739E /* iHChordsDetailController.m */; };
 		D39280FF1805F4B0009F739E /* iHHarmsDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = D39280FE1805F4B0009F739E /* iHHarmsDetailController.m */; };
 		D39281001805F4B0009F739E /* iHHarmsDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = D39280FE1805F4B0009F739E /* iHHarmsDetailController.m */; };
-		D39281011805F4B0009F739E /* iHHarmsDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = D39280FE1805F4B0009F739E /* iHHarmsDetailController.m */; };
 		D3A613DB145367D500C5E01F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3A613DA145367D400C5E01F /* QuartzCore.framework */; };
 		D3AC8E8F17F88920000E3315 /* iHChordsiPadDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AC8E5517F8891F000E3315 /* iHChordsiPadDetailViewController.m */; };
 		D3AC8E9017F88920000E3315 /* iHChordsiPadDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AC8E5517F8891F000E3315 /* iHChordsiPadDetailViewController.m */; };
-		D3AC8E9117F88920000E3315 /* iHChordsiPadDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AC8E5517F8891F000E3315 /* iHChordsiPadDetailViewController.m */; };
 		D3AC8E9217F88920000E3315 /* iHChordsiPadDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3AC8E5617F8891F000E3315 /* iHChordsiPadDetailViewController.xib */; };
 		D3AC8E9317F88920000E3315 /* iHChordsiPadDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3AC8E5617F8891F000E3315 /* iHChordsiPadDetailViewController.xib */; };
-		D3AC8E9417F88920000E3315 /* iHChordsiPadDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3AC8E5617F8891F000E3315 /* iHChordsiPadDetailViewController.xib */; };
 		D3AC8E9517F88920000E3315 /* iHChordsiPhoneDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AC8E5817F8891F000E3315 /* iHChordsiPhoneDetailViewController.m */; };
 		D3AC8E9617F88920000E3315 /* iHChordsiPhoneDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AC8E5817F8891F000E3315 /* iHChordsiPhoneDetailViewController.m */; };
-		D3AC8E9717F88920000E3315 /* iHChordsiPhoneDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AC8E5817F8891F000E3315 /* iHChordsiPhoneDetailViewController.m */; };
 		D3AC8E9817F88920000E3315 /* iHChordsMasterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AC8E5A17F8891F000E3315 /* iHChordsMasterTableViewController.m */; };
 		D3AC8E9917F88920000E3315 /* iHChordsMasterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AC8E5A17F8891F000E3315 /* iHChordsMasterTableViewController.m */; };
-		D3AC8E9A17F88920000E3315 /* iHChordsMasterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AC8E5A17F8891F000E3315 /* iHChordsMasterTableViewController.m */; };
 		D3AC8E9B17F88920000E3315 /* iHHarmsiPadDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AC8E5C17F8891F000E3315 /* iHHarmsiPadDetailViewController.m */; };
 		D3AC8E9C17F88920000E3315 /* iHHarmsiPadDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AC8E5C17F8891F000E3315 /* iHHarmsiPadDetailViewController.m */; };
-		D3AC8E9D17F88920000E3315 /* iHHarmsiPadDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AC8E5C17F8891F000E3315 /* iHHarmsiPadDetailViewController.m */; };
 		D3AC8E9E17F88920000E3315 /* iHHarmsiPadDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3AC8E5D17F8891F000E3315 /* iHHarmsiPadDetailViewController.xib */; };
 		D3AC8E9F17F88920000E3315 /* iHHarmsiPadDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3AC8E5D17F8891F000E3315 /* iHHarmsiPadDetailViewController.xib */; };
-		D3AC8EA017F88920000E3315 /* iHHarmsiPadDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3AC8E5D17F8891F000E3315 /* iHHarmsiPadDetailViewController.xib */; };
 		D3AC8EA117F88920000E3315 /* iHHarmsiPhoneDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AC8E5F17F8891F000E3315 /* iHHarmsiPhoneDetailViewController.m */; };
 		D3AC8EA217F88920000E3315 /* iHHarmsiPhoneDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AC8E5F17F8891F000E3315 /* iHHarmsiPhoneDetailViewController.m */; };
-		D3AC8EA317F88920000E3315 /* iHHarmsiPhoneDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AC8E5F17F8891F000E3315 /* iHHarmsiPhoneDetailViewController.m */; };
 		D3AC8EA417F88920000E3315 /* iHHarmsMasterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AC8E6117F8891F000E3315 /* iHHarmsMasterTableViewController.m */; };
 		D3AC8EA517F88920000E3315 /* iHHarmsMasterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AC8E6117F8891F000E3315 /* iHHarmsMasterTableViewController.m */; };
-		D3AC8EA617F88920000E3315 /* iHHarmsMasterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AC8E6117F8891F000E3315 /* iHHarmsMasterTableViewController.m */; };
 		D3AC8EA717F88920000E3315 /* iHMasterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AC8E6317F8891F000E3315 /* iHMasterTableViewController.m */; };
 		D3AC8EA817F88920000E3315 /* iHMasterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AC8E6317F8891F000E3315 /* iHMasterTableViewController.m */; };
-		D3AC8EA917F88920000E3315 /* iHMasterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AC8E6317F8891F000E3315 /* iHMasterTableViewController.m */; };
 		D3AC8EAA17F88920000E3315 /* iHItemiPadDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AC8E6517F8891F000E3315 /* iHItemiPadDetailViewController.m */; };
 		D3AC8EAB17F88920000E3315 /* iHItemiPadDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AC8E6517F8891F000E3315 /* iHItemiPadDetailViewController.m */; };
-		D3AC8EAC17F88920000E3315 /* iHItemiPadDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AC8E6517F8891F000E3315 /* iHItemiPadDetailViewController.m */; };
 		D3AC8EAD17F88920000E3315 /* iHMenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AC8E6717F88920000E3315 /* iHMenuTableViewController.m */; };
 		D3AC8EAE17F88920000E3315 /* iHMenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AC8E6717F88920000E3315 /* iHMenuTableViewController.m */; };
-		D3AC8EAF17F88920000E3315 /* iHMenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AC8E6717F88920000E3315 /* iHMenuTableViewController.m */; };
 		D3AC8EB017F88920000E3315 /* iHMenuTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3AC8E6817F88920000E3315 /* iHMenuTableViewController.xib */; };
 		D3AC8EB117F88920000E3315 /* iHMenuTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3AC8E6817F88920000E3315 /* iHMenuTableViewController.xib */; };
-		D3AC8EB217F88920000E3315 /* iHMenuTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3AC8E6817F88920000E3315 /* iHMenuTableViewController.xib */; };
 		D3AC8EB317F88920000E3315 /* iHNotesiPadDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AC8E6A17F88920000E3315 /* iHNotesiPadDetailViewController.m */; };
 		D3AC8EB417F88920000E3315 /* iHNotesiPadDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AC8E6A17F88920000E3315 /* iHNotesiPadDetailViewController.m */; };
-		D3AC8EB517F88920000E3315 /* iHNotesiPadDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AC8E6A17F88920000E3315 /* iHNotesiPadDetailViewController.m */; };
 		D3AC8EB617F88920000E3315 /* iHNotesiPadDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3AC8E6B17F88920000E3315 /* iHNotesiPadDetailViewController.xib */; };
 		D3AC8EB717F88920000E3315 /* iHNotesiPadDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3AC8E6B17F88920000E3315 /* iHNotesiPadDetailViewController.xib */; };
-		D3AC8EB817F88920000E3315 /* iHNotesiPadDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3AC8E6B17F88920000E3315 /* iHNotesiPadDetailViewController.xib */; };
 		D3AC8EB917F88920000E3315 /* iHNotesiPhoneDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AC8E6D17F88920000E3315 /* iHNotesiPhoneDetailViewController.m */; };
 		D3AC8EBA17F88920000E3315 /* iHNotesiPhoneDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AC8E6D17F88920000E3315 /* iHNotesiPhoneDetailViewController.m */; };
-		D3AC8EBB17F88920000E3315 /* iHNotesiPhoneDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AC8E6D17F88920000E3315 /* iHNotesiPhoneDetailViewController.m */; };
 		D3AC8EBC17F88920000E3315 /* iHNotesiPhoneDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3AC8E6E17F88920000E3315 /* iHNotesiPhoneDetailViewController.xib */; };
 		D3AC8EBD17F88920000E3315 /* iHNotesiPhoneDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3AC8E6E17F88920000E3315 /* iHNotesiPhoneDetailViewController.xib */; };
-		D3AC8EBE17F88920000E3315 /* iHNotesiPhoneDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3AC8E6E17F88920000E3315 /* iHNotesiPhoneDetailViewController.xib */; };
 		D3AC8EBF17F88920000E3315 /* iHNotesMasterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AC8E7017F88920000E3315 /* iHNotesMasterTableViewController.m */; };
 		D3AC8EC017F88920000E3315 /* iHNotesMasterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AC8E7017F88920000E3315 /* iHNotesMasterTableViewController.m */; };
-		D3AC8EC117F88920000E3315 /* iHNotesMasterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AC8E7017F88920000E3315 /* iHNotesMasterTableViewController.m */; };
 		D3AC8EC217F88920000E3315 /* iHScalesiPadDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AC8E7217F88920000E3315 /* iHScalesiPadDetailViewController.m */; };
 		D3AC8EC317F88920000E3315 /* iHScalesiPadDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AC8E7217F88920000E3315 /* iHScalesiPadDetailViewController.m */; };
-		D3AC8EC417F88920000E3315 /* iHScalesiPadDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AC8E7217F88920000E3315 /* iHScalesiPadDetailViewController.m */; };
 		D3AC8EC517F88920000E3315 /* iHScalesiPadDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3AC8E7317F88920000E3315 /* iHScalesiPadDetailViewController.xib */; };
 		D3AC8EC617F88920000E3315 /* iHScalesiPadDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3AC8E7317F88920000E3315 /* iHScalesiPadDetailViewController.xib */; };
-		D3AC8EC717F88920000E3315 /* iHScalesiPadDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3AC8E7317F88920000E3315 /* iHScalesiPadDetailViewController.xib */; };
 		D3AC8EC817F88920000E3315 /* iHScalesiPhoneDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AC8E7517F88920000E3315 /* iHScalesiPhoneDetailViewController.m */; };
 		D3AC8EC917F88920000E3315 /* iHScalesiPhoneDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AC8E7517F88920000E3315 /* iHScalesiPhoneDetailViewController.m */; };
-		D3AC8ECA17F88920000E3315 /* iHScalesiPhoneDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AC8E7517F88920000E3315 /* iHScalesiPhoneDetailViewController.m */; };
 		D3AC8ECB17F88920000E3315 /* iHScalesMasterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AC8E7717F88920000E3315 /* iHScalesMasterTableViewController.m */; };
 		D3AC8ECC17F88920000E3315 /* iHScalesMasterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AC8E7717F88920000E3315 /* iHScalesMasterTableViewController.m */; };
-		D3AC8ECD17F88920000E3315 /* iHScalesMasterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AC8E7717F88920000E3315 /* iHScalesMasterTableViewController.m */; };
 		D3AC8ECE17F88920000E3315 /* iHSearchTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AC8E7917F88920000E3315 /* iHSearchTableViewController.m */; };
 		D3AC8ECF17F88920000E3315 /* iHSearchTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AC8E7917F88920000E3315 /* iHSearchTableViewController.m */; };
-		D3AC8ED017F88920000E3315 /* iHSearchTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AC8E7917F88920000E3315 /* iHSearchTableViewController.m */; };
 		D3AC8ED117F88920000E3315 /* iHSettingsNotationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AC8E7B17F88920000E3315 /* iHSettingsNotationTableViewController.m */; };
 		D3AC8ED217F88920000E3315 /* iHSettingsNotationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AC8E7B17F88920000E3315 /* iHSettingsNotationTableViewController.m */; };
-		D3AC8ED317F88920000E3315 /* iHSettingsNotationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AC8E7B17F88920000E3315 /* iHSettingsNotationTableViewController.m */; };
 		D3AC8ED417F88920000E3315 /* iHSettingsNotationTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3AC8E7C17F88920000E3315 /* iHSettingsNotationTableViewController.xib */; };
 		D3AC8ED517F88920000E3315 /* iHSettingsNotationTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3AC8E7C17F88920000E3315 /* iHSettingsNotationTableViewController.xib */; };
-		D3AC8ED617F88920000E3315 /* iHSettingsNotationTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3AC8E7C17F88920000E3315 /* iHSettingsNotationTableViewController.xib */; };
 		D3AC8ED717F88920000E3315 /* iHSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AC8E7E17F88920000E3315 /* iHSettingsViewController.m */; };
 		D3AC8ED817F88920000E3315 /* iHSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AC8E7E17F88920000E3315 /* iHSettingsViewController.m */; };
-		D3AC8ED917F88920000E3315 /* iHSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AC8E7E17F88920000E3315 /* iHSettingsViewController.m */; };
 		D3AC8EDA17F88920000E3315 /* iHSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3AC8E7F17F88920000E3315 /* iHSettingsViewController.xib */; };
 		D3AC8EDB17F88920000E3315 /* iHSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3AC8E7F17F88920000E3315 /* iHSettingsViewController.xib */; };
-		D3AC8EDC17F88920000E3315 /* iHSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3AC8E7F17F88920000E3315 /* iHSettingsViewController.xib */; };
 		D3AC8EDD17F88920000E3315 /* iHSidePanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AC8E8117F88920000E3315 /* iHSidePanelController.m */; };
 		D3AC8EDE17F88920000E3315 /* iHSidePanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AC8E8117F88920000E3315 /* iHSidePanelController.m */; };
-		D3AC8EDF17F88920000E3315 /* iHSidePanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AC8E8117F88920000E3315 /* iHSidePanelController.m */; };
 		D3AC8EE017F88920000E3315 /* iHTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AC8E8317F88920000E3315 /* iHTableViewController.m */; };
 		D3AC8EE117F88920000E3315 /* iHTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AC8E8317F88920000E3315 /* iHTableViewController.m */; };
-		D3AC8EE217F88920000E3315 /* iHTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AC8E8317F88920000E3315 /* iHTableViewController.m */; };
 		D3AC8EE317F88920000E3315 /* iHDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AC8E8517F88920000E3315 /* iHDetailViewController.m */; };
 		D3AC8EE417F88920000E3315 /* iHDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AC8E8517F88920000E3315 /* iHDetailViewController.m */; };
-		D3AC8EE517F88920000E3315 /* iHDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AC8E8517F88920000E3315 /* iHDetailViewController.m */; };
 		D3AC8EF417F88957000E3315 /* iHItemiPhoneDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AC8EF317F88957000E3315 /* iHItemiPhoneDetailViewController.m */; };
 		D3AC8EF517F88957000E3315 /* iHItemiPhoneDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AC8EF317F88957000E3315 /* iHItemiPhoneDetailViewController.m */; };
-		D3AC8EF617F88957000E3315 /* iHItemiPhoneDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AC8EF317F88957000E3315 /* iHItemiPhoneDetailViewController.m */; };
 		D3AC8EF917F88989000E3315 /* iHSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AC8EF817F88989000E3315 /* iHSplitViewController.m */; };
 		D3AC8EFA17F88989000E3315 /* iHSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AC8EF817F88989000E3315 /* iHSplitViewController.m */; };
-		D3AC8EFB17F88989000E3315 /* iHSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AC8EF817F88989000E3315 /* iHSplitViewController.m */; };
 		D3BECC27145DCDFF00690DED /* CDAudioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D3BECC1F145DCDFF00690DED /* CDAudioManager.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		D3BECC29145DCDFF00690DED /* CDOpenALSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = D3BECC22145DCDFF00690DED /* CDOpenALSupport.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		D3BECC2B145DCDFF00690DED /* CocosDenshion.m in Sources */ = {isa = PBXBuildFile; fileRef = D3BECC24145DCDFF00690DED /* CocosDenshion.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -411,16 +275,14 @@
 		D3BECCA4145DDC8E00690DED /* Gd4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3BECC5D145DDC8E00690DED /* Gd4.mp3 */; };
 		D3C504B0180536310061DE03 /* iHNotesDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C504AF180536310061DE03 /* iHNotesDetailController.m */; };
 		D3C504B1180536310061DE03 /* iHNotesDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C504AF180536310061DE03 /* iHNotesDetailController.m */; };
-		D3C504B2180536310061DE03 /* iHNotesDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C504AF180536310061DE03 /* iHNotesDetailController.m */; };
 		D3CBFBC51460437C00941CE2 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3CBFBC41460437B00941CE2 /* CoreFoundation.framework */; };
-		D3CD9D2714ADFB340093303D /* db.json in Resources */ = {isa = PBXBuildFile; fileRef = D35AF0FD14ADE03700EAC35D /* db.json */; };
 		D3D5487A182FF516006A4735 /* iHMenuTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D54879182FF516006A4735 /* iHMenuTableViewCell.m */; };
 		D3D5487B182FF516006A4735 /* iHMenuTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D54879182FF516006A4735 /* iHMenuTableViewCell.m */; };
-		D3D5487C182FF516006A4735 /* iHMenuTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D54879182FF516006A4735 /* iHMenuTableViewCell.m */; };
 		D3E540DC1803E981003B5C30 /* iHTranslatorService.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E540DB1803E981003B5C30 /* iHTranslatorService.m */; };
 		D3E540DD1803E981003B5C30 /* iHTranslatorService.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E540DB1803E981003B5C30 /* iHTranslatorService.m */; };
-		D3E540DE1803E981003B5C30 /* iHTranslatorService.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E540DB1803E981003B5C30 /* iHTranslatorService.m */; };
 		D3F2C2ED14F18AEF0063C604 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3F2C2EA14F18ACA0063C604 /* SystemConfiguration.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		F01488941A2A1CEF003A76E0 /* db.json in Resources */ = {isa = PBXBuildFile; fileRef = F01488931A2A1CEF003A76E0 /* db.json */; };
+		F01488961A2A1CF5003A76E0 /* db.json in Resources */ = {isa = PBXBuildFile; fileRef = F01488951A2A1CF5003A76E0 /* db.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -465,10 +327,6 @@
 		D351242417F89D8600F90652 /* iHScalesiPhoneDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = iHScalesiPhoneDetailViewController.xib; sourceTree = "<group>"; };
 		D351C10517F37DB10072D5DD /* iHarmonyAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iHarmonyAppDelegate.h; sourceTree = "<group>"; };
 		D351C10617F37DB10072D5DD /* iHarmonyAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iHarmonyAppDelegate.m; sourceTree = "<group>"; };
-		D35AF0FD14ADE03700EAC35D /* db.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = db.json; sourceTree = "<group>"; };
-		D35F67D117EBA748004C346E /* Beta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Beta.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D35F67D417EBA80F004C346E /* applicationConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = applicationConfig.plist; sourceTree = "<group>"; };
-		D35F67D517EBA80F004C346E /* iHarmony-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iHarmony-Info.plist"; sourceTree = "<group>"; };
 		D35F67D917EBA815004C346E /* applicationConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = applicationConfig.plist; sourceTree = "<group>"; };
 		D35F67DA17EBA815004C346E /* iHarmony-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iHarmony-Info.plist"; sourceTree = "<group>"; };
 		D35F67DE17EBA81A004C346E /* applicationConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = applicationConfig.plist; sourceTree = "<group>"; };
@@ -654,6 +512,8 @@
 		D3E540DA1803E981003B5C30 /* iHTranslatorService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iHTranslatorService.h; sourceTree = "<group>"; };
 		D3E540DB1803E981003B5C30 /* iHTranslatorService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iHTranslatorService.m; sourceTree = "<group>"; };
 		D3F2C2EA14F18ACA0063C604 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F01488931A2A1CEF003A76E0 /* db.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = db.json; sourceTree = "<group>"; };
+		F01488951A2A1CF5003A76E0 /* db.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = db.json; sourceTree = "<group>"; };
 		F02A046918CBD769008CDD34 /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.md; sourceTree = "<group>"; };
 		F02A046B18CBD7D6008CDD34 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -676,26 +536,6 @@
 				D315515617EA5B1800D96333 /* Foundation.framework in Frameworks */,
 				D315515717EA5B1800D96333 /* CoreGraphics.framework in Frameworks */,
 				D315515817EA5B1800D96333 /* libPods.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D35F672517EBA748004C346E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D35F672617EBA748004C346E /* libz.dylib in Frameworks */,
-				D35F672717EBA748004C346E /* SystemConfiguration.framework in Frameworks */,
-				D35F672817EBA748004C346E /* MessageUI.framework in Frameworks */,
-				D35F672917EBA748004C346E /* CoreFoundation.framework in Frameworks */,
-				D35F672A17EBA748004C346E /* Security.framework in Frameworks */,
-				D35F672B17EBA748004C346E /* OpenAL.framework in Frameworks */,
-				D35F672C17EBA748004C346E /* AudioToolbox.framework in Frameworks */,
-				D35F672D17EBA748004C346E /* AVFoundation.framework in Frameworks */,
-				D35F672E17EBA748004C346E /* QuartzCore.framework in Frameworks */,
-				D35F672F17EBA748004C346E /* UIKit.framework in Frameworks */,
-				D35F673117EBA748004C346E /* Foundation.framework in Frameworks */,
-				D35F673217EBA748004C346E /* CoreGraphics.framework in Frameworks */,
-				D35F673317EBA748004C346E /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -943,34 +783,16 @@
 			isa = PBXGroup;
 			children = (
 				D35F67D817EBA815004C346E /* Development */,
-				D35F67D317EBA80F004C346E /* Beta */,
 				D35F67DD17EBA81A004C346E /* Production */,
-				D35AF0FC14ADE03700EAC35D /* db */,
 			);
 			name = Targets;
 			path = iHarmony/Targets;
 			sourceTree = "<group>";
 		};
-		D35AF0FC14ADE03700EAC35D /* db */ = {
-			isa = PBXGroup;
-			children = (
-				D35AF0FD14ADE03700EAC35D /* db.json */,
-			);
-			path = db;
-			sourceTree = "<group>";
-		};
-		D35F67D317EBA80F004C346E /* Beta */ = {
-			isa = PBXGroup;
-			children = (
-				D35F67D417EBA80F004C346E /* applicationConfig.plist */,
-				D35F67D517EBA80F004C346E /* iHarmony-Info.plist */,
-			);
-			path = Beta;
-			sourceTree = "<group>";
-		};
 		D35F67D817EBA815004C346E /* Development */ = {
 			isa = PBXGroup;
 			children = (
+				F01488931A2A1CEF003A76E0 /* db.json */,
 				D35F67D917EBA815004C346E /* applicationConfig.plist */,
 				D35F67DA17EBA815004C346E /* iHarmony-Info.plist */,
 			);
@@ -980,6 +802,7 @@
 		D35F67DD17EBA81A004C346E /* Production */ = {
 			isa = PBXGroup;
 			children = (
+				F01488951A2A1CF5003A76E0 /* db.json */,
 				D35F67DE17EBA81A004C346E /* applicationConfig.plist */,
 				D35F67DF17EBA81A004C346E /* iHarmony-Info.plist */,
 			);
@@ -1020,7 +843,6 @@
 			children = (
 				D3764CD9135A3BB40041A922 /* Development.app */,
 				D31551F317EA5B1800D96333 /* Production.app */,
-				D35F67D117EBA748004C346E /* Beta.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1283,25 +1105,6 @@
 			productReference = D31551F317EA5B1800D96333 /* Production.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D35F66E617EBA748004C346E /* Beta */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D35F67CD17EBA748004C346E /* Build configuration list for PBXNativeTarget "Beta" */;
-			buildPhases = (
-				D35F66E717EBA748004C346E /* Check Pods Manifest.lock */,
-				D35F66E817EBA748004C346E /* Sources */,
-				D35F672517EBA748004C346E /* Frameworks */,
-				D35F673417EBA748004C346E /* Resources */,
-				D35F67CC17EBA748004C346E /* Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Beta;
-			productName = iHarmony;
-			productReference = D35F67D117EBA748004C346E /* Beta.app */;
-			productType = "com.apple.product-type.application";
-		};
 		D3764CD8135A3BB40041A922 /* Development */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D3764D16135A3BB40041A922 /* Build configuration list for PBXNativeTarget "Development" */;
@@ -1349,7 +1152,6 @@
 			targets = (
 				D3764CD8135A3BB40041A922 /* Development */,
 				D315510A17EA5B1800D96333 /* Production */,
-				D35F66E617EBA748004C346E /* Beta */,
 			);
 		};
 /* End PBXProject section */
@@ -1392,6 +1194,7 @@
 				D315517B17EA5B1800D96333 /* F3.mp3 in Resources */,
 				D315517C17EA5B1800D96333 /* F4.mp3 in Resources */,
 				D315517D17EA5B1800D96333 /* Fd2.mp3 in Resources */,
+				F01488961A2A1CF5003A76E0 /* db.json in Resources */,
 				D315517E17EA5B1800D96333 /* Fd3.mp3 in Resources */,
 				D351242617F89D8600F90652 /* iHChordsiPhoneDetailViewController.xib in Resources */,
 				D315517F17EA5B1800D96333 /* Fd4.mp3 in Resources */,
@@ -1411,75 +1214,10 @@
 				D315519917EA5B1800D96333 /* Localizable.strings in Resources */,
 				D3AC8EBD17F88920000E3315 /* iHNotesiPhoneDetailViewController.xib in Resources */,
 				D3AC8ED517F88920000E3315 /* iHSettingsNotationTableViewController.xib in Resources */,
-				D31551A117EA5B1800D96333 /* db.json in Resources */,
 				D3AC8EB117F88920000E3315 /* iHMenuTableViewController.xib in Resources */,
 				D351242C17F89D8600F90652 /* iHScalesiPhoneDetailViewController.xib in Resources */,
 				D317FB931829B12900809C4B /* Media.xcassets in Resources */,
 				D3AC8E9F17F88920000E3315 /* iHHarmsiPadDetailViewController.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D35F673417EBA748004C346E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D3AC8EDC17F88920000E3315 /* iHSettingsViewController.xib in Resources */,
-				D35F673517EBA748004C346E /* MainWindow~iPad.xib in Resources */,
-				D35F673617EBA748004C346E /* MainWindow~iPhone.xib in Resources */,
-				D35F673F17EBA748004C346E /* A2.mp3 in Resources */,
-				D35F674017EBA748004C346E /* A3.mp3 in Resources */,
-				D35F674317EBA748004C346E /* A4.mp3 in Resources */,
-				D35F674417EBA748004C346E /* Ad2.mp3 in Resources */,
-				D35F674717EBA748004C346E /* Ad3.mp3 in Resources */,
-				D35F674917EBA748004C346E /* Ad4.mp3 in Resources */,
-				D35F674A17EBA748004C346E /* B2.mp3 in Resources */,
-				D35F674B17EBA748004C346E /* B3.mp3 in Resources */,
-				D35F674D17EBA748004C346E /* B4.mp3 in Resources */,
-				D35F674E17EBA748004C346E /* C2.mp3 in Resources */,
-				D35F674F17EBA748004C346E /* C3.mp3 in Resources */,
-				D35F675117EBA748004C346E /* C4.mp3 in Resources */,
-				D35F675217EBA748004C346E /* Cd2.mp3 in Resources */,
-				D35F675317EBA748004C346E /* Cd3.mp3 in Resources */,
-				D351242A17F89D8600F90652 /* iHHarmsiPhoneDetailViewController.xib in Resources */,
-				D35F675517EBA748004C346E /* Cd4.mp3 in Resources */,
-				D35F675617EBA748004C346E /* D2.mp3 in Resources */,
-				D35F675717EBA748004C346E /* D3.mp3 in Resources */,
-				D35F675817EBA748004C346E /* D4.mp3 in Resources */,
-				D35F675917EBA748004C346E /* Dd2.mp3 in Resources */,
-				D35F675A17EBA748004C346E /* Dd3.mp3 in Resources */,
-				D35F675B17EBA748004C346E /* Dd4.mp3 in Resources */,
-				D3AC8EC717F88920000E3315 /* iHScalesiPadDetailViewController.xib in Resources */,
-				D35F675C17EBA748004C346E /* E2.mp3 in Resources */,
-				D35F675E17EBA748004C346E /* E3.mp3 in Resources */,
-				D35F675F17EBA748004C346E /* E4.mp3 in Resources */,
-				D35F676017EBA748004C346E /* F2.mp3 in Resources */,
-				D35F676117EBA748004C346E /* F3.mp3 in Resources */,
-				D35F676217EBA748004C346E /* F4.mp3 in Resources */,
-				D35F676317EBA748004C346E /* Fd2.mp3 in Resources */,
-				D35F676417EBA748004C346E /* Fd3.mp3 in Resources */,
-				D351242717F89D8600F90652 /* iHChordsiPhoneDetailViewController.xib in Resources */,
-				D35F676517EBA748004C346E /* Fd4.mp3 in Resources */,
-				D35F676617EBA748004C346E /* G2.mp3 in Resources */,
-				D35F676717EBA748004C346E /* G3.mp3 in Resources */,
-				D35F676817EBA748004C346E /* G4.mp3 in Resources */,
-				D35F676917EBA748004C346E /* Gd2.mp3 in Resources */,
-				D35F676A17EBA748004C346E /* Gd3.mp3 in Resources */,
-				D35F676B17EBA748004C346E /* Gd4.mp3 in Resources */,
-				D35F676C17EBA748004C346E /* OptimaLTStd-Bold.otf in Resources */,
-				D35F676D17EBA748004C346E /* OptimaLTStd-DemiBold.otf in Resources */,
-				D35F676E17EBA748004C346E /* OptimaLTStd-Medium.otf in Resources */,
-				D35F676F17EBA748004C346E /* OptimaLTStd.otf in Resources */,
-				D3AC8EB817F88920000E3315 /* iHNotesiPadDetailViewController.xib in Resources */,
-				D35F67D617EBA80F004C346E /* applicationConfig.plist in Resources */,
-				D3AC8E9417F88920000E3315 /* iHChordsiPadDetailViewController.xib in Resources */,
-				D35F678217EBA748004C346E /* Localizable.strings in Resources */,
-				D3AC8EBE17F88920000E3315 /* iHNotesiPhoneDetailViewController.xib in Resources */,
-				D3AC8ED617F88920000E3315 /* iHSettingsNotationTableViewController.xib in Resources */,
-				D35F678C17EBA748004C346E /* db.json in Resources */,
-				D3AC8EB217F88920000E3315 /* iHMenuTableViewController.xib in Resources */,
-				D351242D17F89D8600F90652 /* iHScalesiPhoneDetailViewController.xib in Resources */,
-				D317FB941829B12900809C4B /* Media.xcassets in Resources */,
-				D3AC8EA017F88920000E3315 /* iHHarmsiPadDetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1520,6 +1258,7 @@
 				D3BECC90145DDC8E00690DED /* F3.mp3 in Resources */,
 				D3BECC92145DDC8E00690DED /* F4.mp3 in Resources */,
 				D3BECC94145DDC8E00690DED /* Fd2.mp3 in Resources */,
+				F01488941A2A1CEF003A76E0 /* db.json in Resources */,
 				D3BECC96145DDC8E00690DED /* Fd3.mp3 in Resources */,
 				D351242517F89D8600F90652 /* iHChordsiPhoneDetailViewController.xib in Resources */,
 				D3BECC98145DDC8E00690DED /* Fd4.mp3 in Resources */,
@@ -1539,7 +1278,6 @@
 				D3487353149167B4009F1CEB /* Localizable.strings in Resources */,
 				D3AC8EBC17F88920000E3315 /* iHNotesiPhoneDetailViewController.xib in Resources */,
 				D3AC8ED417F88920000E3315 /* iHSettingsNotationTableViewController.xib in Resources */,
-				D3CD9D2714ADFB340093303D /* db.json in Resources */,
 				D3AC8EB017F88920000E3315 /* iHMenuTableViewController.xib in Resources */,
 				D351242B17F89D8600F90652 /* iHScalesiPhoneDetailViewController.xib in Resources */,
 				D317FB921829B12900809C4B /* Media.xcassets in Resources */,
@@ -1596,36 +1334,6 @@
 			showEnvVarsInLog = 0;
 		};
 		D31551EF17EA5B1800D96333 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D35F66E717EBA748004C346E /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		D35F67CC17EBA748004C346E /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1715,81 +1423,6 @@
 				D3786B8117EEF33D007D66BD /* NSString+Additions.m in Sources */,
 				D3AC8EC917F88920000E3315 /* iHScalesiPhoneDetailViewController.m in Sources */,
 				D3786BBB17EEF778007D66BD /* iHChordGroupRepresentationDTO.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D35F66E817EBA748004C346E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D35F66E917EBA748004C346E /* main.m in Sources */,
-				D3786B7C17EEF33D007D66BD /* NSArray+Functional.m in Sources */,
-				D3786B9117EEF33D007D66BD /* UIWindow+ADBExtensions.m in Sources */,
-				D35F66EB17EBA748004C346E /* MGSplitDividerView.m in Sources */,
-				D35F66EE17EBA748004C346E /* ILBarButtonItem.m in Sources */,
-				D3AC8EA317F88920000E3315 /* iHHarmsiPhoneDetailViewController.m in Sources */,
-				D3AC8EDF17F88920000E3315 /* iHSidePanelController.m in Sources */,
-				D3AC8E9117F88920000E3315 /* iHChordsiPadDetailViewController.m in Sources */,
-				D3786BA817EEF768007D66BD /* IHApplicationConfig.m in Sources */,
-				D35F66F217EBA748004C346E /* MGSplitCornersView.m in Sources */,
-				D3786BC517EEF778007D66BD /* iHScaleGroupRepresentationDTO.m in Sources */,
-				D35F66F617EBA748004C346E /* MGSplitViewController.m in Sources */,
-				D3AC8EF617F88957000E3315 /* iHItemiPhoneDetailViewController.m in Sources */,
-				D351241E17F88AEA00F90652 /* iHSlider.m in Sources */,
-				D3AC8EE217F88920000E3315 /* iHTableViewController.m in Sources */,
-				D3786B8B17EEF33D007D66BD /* UIColor+Additions.m in Sources */,
-				D35F66F817EBA748004C346E /* DCKnob.m in Sources */,
-				D3786BC217EEF778007D66BD /* iHNoteGroupRepresentationDTO.m in Sources */,
-				D3AC8ED317F88920000E3315 /* iHSettingsNotationTableViewController.m in Sources */,
-				D35F66FC17EBA748004C346E /* DCControl.m in Sources */,
-				D35F66FE17EBA748004C346E /* DCSlider.m in Sources */,
-				D3AC8ED917F88920000E3315 /* iHSettingsViewController.m in Sources */,
-				D3AC8EA917F88920000E3315 /* iHMasterTableViewController.m in Sources */,
-				D351241817F88AEA00F90652 /* iHDetailTitleView.m in Sources */,
-				D3AC8ED017F88920000E3315 /* iHSearchTableViewController.m in Sources */,
-				D3C504B2180536310061DE03 /* iHNotesDetailController.m in Sources */,
-				D351241B17F88AEA00F90652 /* iHSectionHeaderView.m in Sources */,
-				D3AC8ECD17F88920000E3315 /* iHScalesMasterTableViewController.m in Sources */,
-				D3AC8EE517F88920000E3315 /* iHDetailViewController.m in Sources */,
-				D3786BB917EEF778007D66BD /* iHarmonyDB.m in Sources */,
-				D351242117F88AEA00F90652 /* iHTableViewCell.m in Sources */,
-				D368BA5418022015003EA28D /* iHHarmDTO.m in Sources */,
-				D3786BAB17EEF768007D66BD /* iHSoundEngine.m in Sources */,
-				D3786B7917EEF33D007D66BD /* NSArray+Additions.m in Sources */,
-				D3AC8EAF17F88920000E3315 /* iHMenuTableViewController.m in Sources */,
-				D3AC8EB517F88920000E3315 /* iHNotesiPadDetailViewController.m in Sources */,
-				D3AC8EFB17F88989000E3315 /* iHSplitViewController.m in Sources */,
-				D3D5487C182FF516006A4735 /* iHMenuTableViewCell.m in Sources */,
-				D3786B7617EEF33D007D66BD /* MBProgressHUD+Additions.m in Sources */,
-				D3AC8E9D17F88920000E3315 /* iHHarmsiPadDetailViewController.m in Sources */,
-				D3AC8EA617F88920000E3315 /* iHHarmsMasterTableViewController.m in Sources */,
-				D368BA4A180200E9003EA28D /* iHScaleDTO.m in Sources */,
-				D3AC8E9717F88920000E3315 /* iHChordsiPhoneDetailViewController.m in Sources */,
-				D3786B7F17EEF33D007D66BD /* NSFileManager+ADBExtensions.m in Sources */,
-				D35F670E17EBA748004C346E /* CDAudioManager.m in Sources */,
-				D39280F71805C702009F739E /* iHScalesDetailController.m in Sources */,
-				D35F670F17EBA748004C346E /* CDOpenALSupport.m in Sources */,
-				D3E540DE1803E981003B5C30 /* iHTranslatorService.m in Sources */,
-				D35F671117EBA748004C346E /* CocosDenshion.m in Sources */,
-				D3AC8EAC17F88920000E3315 /* iHItemiPadDetailViewController.m in Sources */,
-				D3AC8EBB17F88920000E3315 /* iHNotesiPhoneDetailViewController.m in Sources */,
-				D368BA4F180201C3003EA28D /* iHChordDTO.m in Sources */,
-				D368BA4518020098003EA28D /* iHNoteDTO.m in Sources */,
-				D35F671217EBA748004C346E /* SimpleAudioEngine.m in Sources */,
-				D351C10917F37DB10072D5DD /* iHarmonyAppDelegate.m in Sources */,
-				D3786B8E17EEF33D007D66BD /* UIView+ADBSubviews.m in Sources */,
-				D3AC8EC417F88920000E3315 /* iHScalesiPadDetailViewController.m in Sources */,
-				D3786B9617EEF374007D66BD /* NSJSONSerialization+ADBExtensions.m in Sources */,
-				D37E7041184D5BAE004AC99F /* iHDatabaseDownloader.m in Sources */,
-				D3786B8517EEF33D007D66BD /* NSUserDefaults+Additions.m in Sources */,
-				D39281011805F4B0009F739E /* iHHarmsDetailController.m in Sources */,
-				D3AC8EC117F88920000E3315 /* iHNotesMasterTableViewController.m in Sources */,
-				D3AC8E9A17F88920000E3315 /* iHChordsMasterTableViewController.m in Sources */,
-				D39280FC1805E7BE009F739E /* iHChordsDetailController.m in Sources */,
-				D3786BBF17EEF778007D66BD /* iHHarmGroupRepresentationDTO.m in Sources */,
-				D3786B8217EEF33D007D66BD /* NSString+Additions.m in Sources */,
-				D3AC8ECA17F88920000E3315 /* iHScalesiPhoneDetailViewController.m in Sources */,
-				D3786BBC17EEF778007D66BD /* iHChordGroupRepresentationDTO.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1933,50 +1566,6 @@
 			};
 			name = Release;
 		};
-		D35F67CE17EBA748004C346E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A19CC0BFF18ED577ECF69DE8 /* Pods.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Alberto De Bortoli (H348E8ZLY2)";
-				CURRENT_PROJECT_VERSION = "3.6-beta";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "iHarmony/iHarmony-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"$(inherited)",
-					DEBUG,
-					DEBUG_D,
-					BETA,
-				);
-				INFOPLIST_FILE = "iHarmony/Targets/Beta/iHarmony-Info.plist";
-				PRODUCT_NAME = Beta;
-				WRAPPER_EXTENSION = app;
-			};
-			name = Debug;
-		};
-		D35F67CF17EBA748004C346E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 513EC74D543238320FB6C7ED /* Pods.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Alberto De Bortoli (ZQPG4YV673)";
-				CURRENT_PROJECT_VERSION = "3.6-beta";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "iHarmony/iHarmony-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"$(inherited)",
-					"COCOAPODS=1",
-					BETA,
-				);
-				INFOPLIST_FILE = "iHarmony/Targets/Beta/iHarmony-Info.plist";
-				PRODUCT_NAME = Beta;
-				PROVISIONING_PROFILE = "63882B8A-3E91-4286-92D9-5CA6B1D0F07A";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
 		D3764D14135A3BB40041A922 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2098,15 +1687,6 @@
 			buildConfigurations = (
 				D31551F117EA5B1800D96333 /* Debug */,
 				D31551F217EA5B1800D96333 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D35F67CD17EBA748004C346E /* Build configuration list for PBXNativeTarget "Beta" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D35F67CE17EBA748004C346E /* Debug */,
-				D35F67CF17EBA748004C346E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
