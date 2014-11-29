@@ -2,18 +2,15 @@ PODS:
   - iRate (1.7)
   - JASidePanels (1.3.2)
   - MBProgressHUD (0.7)
-  - TestFlightSDK (2.2.1)
 
 DEPENDENCIES:
   - iRate (= 1.7)
   - JASidePanels (= 1.3.2)
   - MBProgressHUD (= 0.7)
-  - TestFlightSDK (= 2.2.1)
 
 SPEC CHECKSUMS:
-  iRate: e4a0bd887cf39a1cd389a2112c0edc87fb8f7c0a
-  JASidePanels: c0e642a7311ec9cc9adfa616fa4a795e4e169f20
-  MBProgressHUD: 1fd8591a2216d5dec6de24e09187bb03bcbe9946
-  TestFlightSDK: 030fa8a1bc8aa9ba5c9ae1be05ceaba775368c0c
+  iRate: acbe5dfbb17f4daa952cf1ef48f3766afbe16e69
+  JASidePanels: ca943907d88a0738c80755204c6098969d43e4e9
+  MBProgressHUD: 1458a93b44933b4ccfb97c13d54202c943522bb2
 
-COCOAPODS: 0.29.0
+COCOAPODS: 0.35.0

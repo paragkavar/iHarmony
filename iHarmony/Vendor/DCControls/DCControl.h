@@ -12,7 +12,7 @@
 
 @required
 
-- (void)controlValueDidChange:(float)value sender:(id)sender;
+- (void)controlValueDidChange:(CGFloat)value sender:(id)sender;
 
 @end
 

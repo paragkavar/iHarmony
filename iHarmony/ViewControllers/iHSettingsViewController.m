@@ -384,7 +384,7 @@ static int const kIHSliderTimeBetweenHarmNotes = 203;
 
 #pragma mark - DCControlDelegate
 
-- (void)controlValueDidChange:(float)value sender:(id)sender
+- (void)controlValueDidChange:(CGFloat)value sender:(id)sender
 {
     switch (((iHSlider *)sender).tag) {
         case kIHSliderTimeBetweenScaleNotes:

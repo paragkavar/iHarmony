@@ -41,7 +41,7 @@
     
     NSArray *descendingNotes = [self.descendingScale notesWithOctave];
     
-    for (int i = [descendingNotes count] - 1; i >= 0; i--) {
+    for (NSInteger i = [descendingNotes count] - 1; i >= 0; i--) {
         [allNotes addObject:descendingNotes[i]];
     }
     

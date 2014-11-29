@@ -77,7 +77,7 @@
 shouldReloadTableForSearchString:(NSString *)searchString
 {
     NSPredicate *resultPredicate = [NSPredicate predicateWithBlock:^BOOL(id evaluatedObject, NSDictionary *bindings) {
-        NSString *propertyValue = objc_msgSend(evaluatedObject, @selector(name));
+        NSString *propertyValue = ((id(*)(id, SEL))objc_msgSend)(evaluatedObject, @selector(name));
         NSString *translateValue = NSLocalizedString(propertyValue, nil);
         NSPredicate *resultPredicate = [NSPredicate predicateWithFormat:@"%@ contains[cd] %@", translateValue, searchString];
         return [resultPredicate evaluateWithObject:evaluatedObject];

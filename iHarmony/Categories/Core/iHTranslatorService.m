@@ -180,7 +180,7 @@ NSString *const kIHNoteB4 = @"B4";
                 }
                 prevPosition = position;
             }
-            NSString *itemToReplaceModified = [NSString stringWithFormat:@"%@%d", [modifiedData[i] note], octave];
+            NSString *itemToReplaceModified = [NSString stringWithFormat:@"%@%lu", [modifiedData[i] note], (unsigned long)octave];
             modifiedData[i] = [[iHNoteDTO alloc] initWithString:itemToReplaceModified];
         }
         
@@ -204,7 +204,7 @@ NSString *const kIHNoteB4 = @"B4";
                 }
                 prevPosition = position;
             }
-            NSString *itemToReplaceModified = [NSString stringWithFormat:@"%@%d", [modifiedData[i] note], octave];
+            NSString *itemToReplaceModified = [NSString stringWithFormat:@"%@%lu", [modifiedData[i] note], (unsigned long)octave];
             modifiedData[i] = [[iHNoteDTO alloc] initWithString:itemToReplaceModified];
         }
     }
@@ -219,7 +219,7 @@ NSString *const kIHNoteB4 = @"B4";
                 }
                 prevPosition = position;
             }
-            NSString *itemToReplaceModified = [NSString stringWithFormat:@"%@%d", [modifiedData[i] note], octave];
+            NSString *itemToReplaceModified = [NSString stringWithFormat:@"%@%lu", [modifiedData[i] note], (unsigned long)octave];
             modifiedData[i] = [[iHNoteDTO alloc] initWithString:itemToReplaceModified];
         }
     }

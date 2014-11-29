@@ -20,7 +20,6 @@
 #import "iHSoundEngine.h"
 #import "iRate.h"
 #import "Constants.h"
-#import "TestFlight.h"
 #import "NSUserDefaults+Additions.h"
 #import "IHApplicationConfig.h"
 #import "iHarmonyDB.h"
@@ -39,21 +38,6 @@
 @end
 
 @implementation iHarmonyAppDelegate
-
-+ (void)_setupTestFlight;
-{
-    // can't put this string in the applicationConfig.plist file, otherwise the
-    // token is not recognized after the upload to TestFlight
-#if !(TARGET_IPHONE_SIMULATOR)
-    NSString *token = nil;
-#ifdef PRODUCTION
-    token = @"4016a800-e5e9-4a21-a80d-4b066d6b5b9d";
-#else // BETA or DEVELOPMENT
-    token = @"fa7296c5-989f-46b6-af46-0d8b3cf9a900";
-#endif
-    [TestFlight takeOff:token];
-#endif
-}
 
 - (void)_setupAppearance
 {
@@ -115,7 +99,6 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    [[self class] _setupTestFlight];
     [self _setupAppearance];
     [[self class] _setupUserDefaults];
     
